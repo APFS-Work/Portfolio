@@ -5,13 +5,14 @@ import GetMousePos from "../tools/GetMousePos";
 import RenderClock from "../Clock";
 import { Pages } from "../enums";
 
-function TimeLineContainer({ pointsData = [{ title: "", year: 0, tools: [""] }], selectFunc, currentIndex, page, prevPage, backToMenu }) {
+function TimeLineContainer({ pointsData = [{ title: "", year: 0, tools: [""] }], selectFunc = ((ind: number) => { console.log(ind); }), currentIndex = 0, page = Pages.Menu, prevPage = Pages.Menu, backToMenu = (() => { }) }) {
 
     const { height } = GetWindowSize();
     const { x: mousePosX, y: mousePosY } = GetMousePos();
 
     const [clockScale, setClockScale] = useState(1);
-    const clockScaleAnimation = useEffect(() => {
+    useEffect(() => {
+        //clock scale animation
 
         const dir = ((prevPage == Pages.Showcase && page == Pages.Menu) ? -1 : 1);
 
@@ -32,7 +33,7 @@ function TimeLineContainer({ pointsData = [{ title: "", year: 0, tools: [""] }],
             timeOut = setTimeout(() => {
                 clearInterval(inter);
             }, 1000);
-        }, 1000);            
+        }, 1000);
 
         return () => {
             clearTimeout(delay);
@@ -45,7 +46,9 @@ function TimeLineContainer({ pointsData = [{ title: "", year: 0, tools: [""] }],
     const [minRot, setMinRot] = useState(time.getSeconds() * 6);
     const [hRot, setHourRot] = useState(time.getMinutes() * 6);
 
-    const secToMinRot = useEffect(() => {
+    useEffect(() => {
+        // min hand rotation
+
         const timeOut = setTimeout(() => {
             setMinRot(time.getSeconds() * 6);
         }, 1000);
@@ -56,7 +59,9 @@ function TimeLineContainer({ pointsData = [{ title: "", year: 0, tools: [""] }],
         }
     }, [time.getSeconds()]);
 
-    const minToHourRot = useEffect(() => {
+    useEffect(() => {
+        //hour hand rotation
+
         const timeOut = setTimeout(() => {
             setHourRot(time.getMinutes() * 6);
         }, 1000);
@@ -69,7 +74,7 @@ function TimeLineContainer({ pointsData = [{ title: "", year: 0, tools: [""] }],
 
     let clockInfo: { x: number; y: number; height: number; width: number; };
 
-    const clockRef = useRef(<p></p>);
+    const clockRef = useRef<JSX.Element|null>(null);
     const menuClock = RenderClock({
         clockSize: height * 0.3 * clockScale,
         secHandRot: calSecHandRot(),
@@ -79,11 +84,13 @@ function TimeLineContainer({ pointsData = [{ title: "", year: 0, tools: [""] }],
         prevPage: prevPage,
         backToMenu: backToMenu
     });
+         
     clockRef.current = menuClock;
 
     function calSecHandRot() {
         try {
-            const Ref = clockRef.current.ref.current;
+            //@ts-expect-error: ref is exist
+            const Ref = clockRef?.current?.ref.current;
             clockInfo = { x: Ref.getBoundingClientRect().x, y: Ref.getBoundingClientRect().y, height: Ref.getBoundingClientRect().height, width: Ref.getBoundingClientRect().width };
         } catch (e) {
             //console.log(e);

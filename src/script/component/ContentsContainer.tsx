@@ -2,7 +2,7 @@ import { Pages } from "../enums";
 import Content from "./Content";
 
 
-function ContentsContainer({ contentsData = [{ media: [""], overview: "", link: ""}], page, prevPage, currentIndex, previousIndex }) {
+function ContentsContainer({ contentsData = [{ media: [{}], overview: "", link: ""}], page = Pages.Menu, prevPage = Pages.Menu, currentIndex = 0}) {
     function createConents() {
         const contents = [];
         for (let i = 0; i < contentsData.length; i++) {

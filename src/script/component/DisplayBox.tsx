@@ -1,7 +1,7 @@
 import { mediaType } from "../enums";
 
 
-function DisplayBox({ type, source, currentIndex = 0, localIndex = 0, selectFunc }) {
+function DisplayBox({ type = mediaType.Image, source = "", currentIndex = 0, localIndex = 0, selectFunc = (() => { }) }) {
     const rotate = (localIndex - currentIndex) * -22.5;
 
 

@@ -1,5 +1,5 @@
 
-function TimeLinePoint({ title = "title", year = 2023, tools = ["none"], isToggle = false, setFunc, index }) {
+function TimeLinePoint({ title = "title", year = 2023, tools = ["none"], isToggle = false, setFunc = ((ind: number) => { console.log(ind); }), index = 0 }) {
 
 	function toolsStr() {
 		let str = "";

@@ -1,6 +1,6 @@
 import { Pages, ShowcaseType } from "./enums";
 
-function Menu({ toShowcase = (type) => { } , page, prevPage}) {
+function Menu({ toShowcase = (type: ShowcaseType) => { console.log(type); } , page = Pages.Menu, prevPage = Pages.Menu}) {
     return (
         <div className="menu">
 

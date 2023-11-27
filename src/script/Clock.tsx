@@ -1,7 +1,7 @@
 import React, { useMemo, useRef } from "react";
 import { Pages } from "./enums";
 
-function RenderClock({ clockSize, secHandRot, minHandRot, hourHandRot, page, prevPage, backToMenu }) {
+function RenderClock({ clockSize = 600, secHandRot = 0, minHandRot = 130, hourHandRot = 260, page = Pages.Menu, prevPage = Pages.Menu, backToMenu = (() => { }) }) {
 
     const clockS = { "--clockSize": (clockSize.toString() + "px") } as React.CSSProperties;
     const clockRef = useRef(null);
@@ -72,6 +72,7 @@ function RenderClock({ clockSize, secHandRot, minHandRot, hourHandRot, page, pre
 
         return <line className={"hourHand " + ((prevPage == Pages.Menu && page == Pages.Showcase) ? "hourHandTrans " : "")} x1={X1} y1={Y1} x2={X2} y2={Y2} style={rot} />;
     }, [clockSize, hourHandRot]);
+
 
 
     //return {CreateClock:CreateClock, RenderMinuteLine: RenderMinuteLine, RenderSecHand: RenderSecHand};
