@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\data",
+    "\\src\\script",
+    "\\src\\script\\PhySimulation"
+  ],
+  "SelectedNode": "\\src\\script\\PhySimulation\\PhyCanvas.tsx",
+  "PreviewInSolutionExplorer": false
+}

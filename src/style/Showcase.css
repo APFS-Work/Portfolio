@@ -1,0 +1,103 @@
+
+
+.ContentsContainer {
+    position: absolute;
+    right: 0;
+
+    width: 0;
+    height: 0;
+
+    display: flex;
+    flex-flow:column;
+    overflow: clip;
+}
+
+.contentContainTrans {
+    animation: contentContainTrans 2s ease forwards;
+    animation-delay: 3s
+}
+
+@keyframes contentContainTrans {
+    0% {
+        top: 0;
+        width: 0;
+        height: 0;
+    }
+    100% {
+        top: 0;
+        width: calc(80% - 5px);
+        height: 100vh;
+    }
+}
+
+.Content {
+    border: none solid;
+    width: 95%;
+    align-self: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.Content.show {
+    transition: all 1s ease;
+    opacity: 1;
+    height: 100%;
+    visibility: visible;
+}
+
+.Content.hide {
+    visibility: collapse;
+    transition: all 1s ease;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+
+
+.DisplayBoxContainer {
+    border: none solid;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.DisplayBoxBackground {
+    perspective: 400px;
+    perspective-origin: center;
+    display:flex;
+    width: fit-content;
+}
+
+.DisplayBox {
+    cursor:pointer;
+    opacity: 0.3;
+    width: 8vw;
+    align-self:center;
+
+    box-shadow: black 0px 0px 30px;
+
+    transition: all ease .5s;
+}
+
+.DisplayBox:hover {
+    opacity: 1;
+    transition: all .5s ease;
+}
+
+.DisplayBox.target {
+    width: 100%;
+    opacity: 1;
+    transition: all ease .5s;
+    transition-delay: .5s;
+}
+
+.DisplayBox.hidden {
+    width: 0;
+    height: 0;
+    transition: all ease 1s;
+}

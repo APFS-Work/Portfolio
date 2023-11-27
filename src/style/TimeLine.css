@@ -1,0 +1,223 @@
+.timeLineContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.timeLineContainTrans {
+    --timeLineContainBorder: 5px;
+    transition: all 1s ease-in-out;
+    transition-delay: 2s;
+    width: 20%;
+    border-right: var(--timeLineContainBorder) groove white;
+}
+
+.timeLineContainTrans.reverse {
+    width: 100%;
+    transition: all .3s ease-in-out;
+    --timeLineContainBorder: 0px;
+}
+
+.timeLinePoint {
+    margin: auto;
+    border: solid 1px #666666ff;
+    background-color: white;
+    color: #434343;
+    cursor: pointer;
+    max-width: 15vw;
+    text-align: center;
+}
+
+
+.disable {
+    transition: all ease-in-out 1s;
+    font-size: 0px;
+}
+
+.enable {
+    transition: all ease-in-out .3s;
+}
+
+.timeLinePointContainer {
+    display: flex;
+    flex-flow:column;
+
+    visibility: collapse;
+    position:relative;
+    top: 20%;
+}
+
+.timeLinePointsContainTrans {
+    animation: timeLinePointsContainTrans 2s ease-in-out forwards;
+    animation-delay: 3s;
+}
+
+@keyframes timeLinePointsContainTrans {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        height: 80%;
+        opacity: 1;
+    }
+}
+
+
+.TimeLine {
+    --borderWidth: 5px;
+    --width: .5vw;
+    position: absolute;
+    left: calc(50% - (var(--width) / 2) - (var(--borderWidth) / 2));
+    height: calc(50vh - (var(--borderWidth) * 2));
+    width: var(--width);
+    border-width: var(--borderWidth);
+    border-color: #666666ff;
+}
+
+.TimeLine.begin {
+    background-color: #efefef;
+    border: solid;
+    bottom: 0;
+}
+
+.timeLineBeginTrans {
+    transition: all ease 1s;
+    height: 100vh;
+    animation: timeLineBeginTrans ease 1s forwards;
+    animation-delay: 2s;
+}
+
+.timeLineBeginTrans.reverse {
+    transition: all ease 1s;
+    height: 50vh;
+    left: calc(50% - (var(--width) / 2) - (var(--borderWidth) / 2));
+    animation: none;
+}
+
+@keyframes timeLineBeginTrans {
+    0% {
+        left: calc(50% - (var(--width) / 2) - (var(--borderWidth) / 2));
+    }
+    100% {
+        left: calc(10% - (var(--width) / 2) - (var(--borderWidth) / 2));
+    }
+}
+
+.TimeLine.end {
+    border: dotted;
+    top: 0;
+}
+
+.timeLineEndTrans {
+    transition: all ease 1s;
+    visibility: hidden;
+    height: 0;
+}
+
+.timeLineEndTrans.reverse {
+    transition: all ease 1s;
+    visibility:visible;
+    height: 50vh;
+}
+
+.clock {
+    cursor: pointer;
+    position: absolute;
+    --clockSize: 600px;
+    top: calc(50% - (var(--clockSize)/2));
+    left: calc(50% - (var(--clockSize)/2));
+    width: var(--clockSize);
+    height: var(--clockSize);
+}
+
+.clockTrans {
+    animation: clockTrans 1s forwards;
+    animation-delay: 2s;
+}
+
+@keyframes clockTrans {
+    0% {
+        top: calc(50% - (var(--clockSize)/2));
+        left: calc(50% - (var(--clockSize)/2));
+    }
+    100% {
+        top: calc(10% - (var(--clockSize)/2));
+        left: calc(10% - (var(--clockSize)/2));
+    }
+}
+
+.clockFace {
+    cx: calc(var(--clockSize) / 2);
+    cy: calc(var(--clockSize) / 2);
+    r: calc(var(--clockSize) / 2);
+    fill: white;
+}
+
+line {
+    stroke: #434343;
+    stroke-width: calc(var(--clockSize) / 200);
+}
+
+.middle {
+    cx: calc(var(--clockSize) / 2);
+    cy: calc(var(--clockSize) / 2);
+    r: calc(var(--clockSize) / 60);
+    fill: white;
+    stroke: #434343;
+    stroke-width: calc(var(--clockSize) / 100);
+}
+
+.secHand {
+    stroke: #666666ff;
+    stroke-width: calc(var(--clockSize) / 80);
+    stroke-linecap: round;
+}
+
+.minHand {
+    stroke: #666666ff;
+    stroke-width: calc(var(--clockSize) / 60);
+    stroke-linecap: round;
+
+    --minHandRot: 0deg;
+    transform-origin: center;
+    transform: rotate(var(--minHandRot));
+}
+
+.minHandTrans {
+    animation: minHandTimeTravel 3s ease-out;
+}
+
+@keyframes minHandTimeTravel {
+    0% {
+        transform: rotate(var(--minHandRot));
+    }
+    100% {
+        transform: rotate(calc(var(--minHandRot) - (360deg * 10)));
+    }
+}
+
+.hourHand {
+    stroke: #666666ff;
+    stroke-width: calc(var(--clockSize) / 40);
+    stroke-linecap: round;
+
+    --hourHandRot: 0deg;
+    transform-origin: center;
+    transform: rotate(var(--hourHandRot));
+}
+
+.hourHandTrans {
+    animation: hourHandTimeTravel 3s ease-out;
+}
+
+@keyframes hourHandTimeTravel {
+    0% {
+        transform: rotate(var(--hourHandRot));
+    }
+
+    100% {
+        transform: rotate(calc(var(--hourHandRot) - (360deg * 1)));
+    }
+}
