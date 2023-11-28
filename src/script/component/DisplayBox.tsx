@@ -33,7 +33,14 @@ function DisplayBox({ type = mediaType.Image, source = "", currentIndex = 0, loc
     }
 
     if (type == mediaType.Video) {
-        return;
+        return <div className="DisplayBoxBackground">
+                <iframe className={"DisplayBox " + ((localIndex == currentIndex) ? "target " : "") + (((rotate >= 60) || (rotate <= -60)) ? " hidden" : "")}
+                    height={((localIndex == currentIndex) ? "480px " : "")}
+                    src={source}
+                    onClick={selectFunc}
+                    style={{ transform: "rotateY(" + rotate + "deg) ", width: ((localIndex == currentIndex) ? "720px " : "")}}
+                ></iframe>
+              </div>
     }
 }
 
