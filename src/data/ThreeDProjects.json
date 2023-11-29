@@ -1,49 +1,67 @@
 {
   "Projects": [
     {
-      "title": "Three D project One",
-      "year": 2020,
-      "tools": [ "Maya", "3ds max" ],
+      "title": "3D Animation",
+      "year": 2021,
+      "tools": [ "Autodesk Maya", "Adobe Substance 3D Painter", "Adobe Premiere Pro", "Quixel Mixer", "Quixel Bridge" ],
       "media": [
         {
-          "Image": "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg"
+          "Image": "../../../assets/ProjectsImage/ThreeDArt/Growth/Growth01.gif"
         },
         {
           "Video": "https://www.youtube.com/embed/1LInSFfMVyM"
-        },
-        {
-          "Image": "https://img.freepik.com/premium-photo/dark-new-retro-cyberpunk-background-with-mountains_1053-9231.jpg"
-        },
-        {
-          "Image": "https://cdn.wallpapersafari.com/49/68/bRDzNf.jpg"
-        }        
+        }
       ],
-      "overview": "this project One is for testing",
+      "overview": "This is a 3D animation depicting a robot, inspired by the one from the movie 'Castle in the Sky,' protecting a growing tree.",
       "link": "projectOne.com"
     },
     {
-      "title": "project Two 3d animation",
-      "year": 2020,
-      "tools": [ "substance painter", "photoshop", "premiere", "html", "json", "node js", "unity", "C#", "C++", "Python" ],
+      "title": "3D Model (Movie Vehicle)",
+      "year": 2021,
+      "tools": [ "Autodesk 3ds Max", "Adobe Substance 3D Painter", "Adobe Photoshop" ],
       "media": [
         {
-          "Image": "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg"
+          "Image": "../../../assets/ProjectsImage/ThreeDArt/LEGO/LEGO01.jpg"
         },
         {
-          "Image": "https://wallpapercave.com/wp/wp2608655.jpg"
+          "Image": "../../../assets/ProjectsImage/ThreeDArt/LEGO/LEGO02.jpg"
         },
         {
-          "Image": "https://www.bhmpics.com/downloads/early-morning-Wallpapers/15.germany-early-morning-sunrise-mist.jpg"
+          "Image": "../../../assets/ProjectsImage/ThreeDArt/LEGO/LEGO03.jpg"
         },
         {
-          "Image": "https://img.freepik.com/free-photo/night-sky-glows-with-aurora-snowy-mountains-generative-ai_188544-12454.jpg"
+          "Image": "../../../assets/ProjectsImage/ThreeDArt/LEGO/LEGO04.jpg"
         },
         {
-          "Image": "https://i.pinimg.com/originals/7f/36/20/7f36207eff3a6c8415e93127e223ee6a.jpg"
+          "Image": "../../../assets/ProjectsImage/ThreeDArt/LEGO/LEGO05.jpg"
+        },
+        {
+          "Image": "../../../assets/ProjectsImage/ThreeDArt/LEGO/LEGO06.jpg"
+        },
+        {
+          "Image": "../../../assets/ProjectsImage/ThreeDArt/LEGO/LEGO07.jpg"
+        },
+        {
+          "Image": "../../../assets/ProjectsImage/ThreeDArt/LEGO/LEGO08.jpg"
         }
       ],
-      "overview": "Overview of project Two ",
+      "overview": "This is a 3D model of a LEGO version of the Star Wars A-wing starfighter.",
       "link": "projectTwo.github.com"
+    },
+    {
+      "title": "3D Model (Game Character)",
+      "year": 2020,
+      "tools": [ "Autodesk Maya", "Adobe Substance 3D Painter" ],
+      "media": [
+        {
+          "Image": "../../../assets/ProjectsImage/ThreeDArt/DVAMech/DVAMech01.jpg"
+        },
+        {
+          "Image": "../../../assets/ProjectsImage/ThreeDArt/DVAMech/DVAMech02.jpg"
+        }
+      ],
+      "overview": "This is a 3D model of D.Va's mech, which comes from a video game called Overwatch.",
+      "link": "project3.github.com"
     }
   ]
 }
