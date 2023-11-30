@@ -2,13 +2,15 @@ import { useEffect, useRef } from "react";
 
 function VarCanvas({ color ="black"}) {
     const canvasRef = useRef(null);
-    let ctx;
-    let varTypes = ["Boolean", "Byte", "Char", "Integer", "Float", "Long", "Double", "String"];
-    let vars = [];
+    let ctx:CanvasRenderingContext2D;
+    const varTypes = ["Boolean", "Byte", "Char", "Integer", "Float", "Long", "Double", "String"];
+    const vars:circle[] = [];
 
     useEffect(() => {
         const canvas = canvasRef.current;
-        ctx = canvas.getContext("2d");
+        //@ts-expect-error: getContext is exist
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        ctx = canvas?.getContext("2d");
 
         let animationFrameId: number;
 
@@ -60,7 +62,7 @@ function VarCanvas({ color ="black"}) {
     }
 
     class circle {
-        constructor(context, radius: number, startCoordX: number, startCoordY: number, varTypeStr: string) {
+        constructor(context: CanvasRenderingContext2D, radius: number, startCoordX: number, startCoordY: number, varTypeStr: string) {
             this.context = context;
             this.radius = radius;
             this.varTypeStr = varTypeStr;
