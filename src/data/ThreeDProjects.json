@@ -9,7 +9,7 @@
           "Video": "https://www.youtube.com/embed/1LInSFfMVyM"
         },
         {
-          "Image": "src/assets/ProjectsImage/ThreeDArt/Growth/Growth01.gif"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/ThreeDArt/Growth/Growth01.gif"
         }
       ],
       "overview": "This is a 3D animation depicting a robot, inspired by the one from the movie 'Castle in the Sky,' protecting a growing tree.",
@@ -21,28 +21,28 @@
       "tools": [ "Autodesk 3ds Max", "Adobe Substance 3D Painter", "Adobe Photoshop" ],
       "media": [
         {
-          "Image": "src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO01.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO01.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO02.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO02.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO03.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO03.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO04.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO04.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO05.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO05.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO06.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO06.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO07.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO07.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO08.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/ThreeDArt/LEGO/LEGO08.jpg"
         }
       ],
       "overview": "This is a 3D model of a LEGO version of the Star Wars A-wing starfighter.",
@@ -54,10 +54,10 @@
       "tools": [ "Autodesk Maya", "Adobe Substance 3D Painter" ],
       "media": [
         {
-          "Image": "src/assets/ProjectsImage/ThreeDArt/DVAMech/DVAMech01.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/ThreeDArt/DVAMech/DVAMech01.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/ThreeDArt/DVAMech/DVAMech02.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/ThreeDArt/DVAMech/DVAMech02.jpg"
         }
       ],
       "overview": "This is a 3D model of D.Va's mech, which comes from a video game called Overwatch.",

@@ -6,22 +6,22 @@
       "tools": [ "Python" ],
       "media": [
         {
-          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame01.png"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/KillerGame/KillerGame01.png"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame02.png"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/KillerGame/KillerGame02.png"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame03.png"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/KillerGame/KillerGame03.png"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame04.png"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/KillerGame/KillerGame04.png"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame05.png"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/KillerGame/KillerGame05.png"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame06.png"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/KillerGame/KillerGame06.png"
         }
       ],
       "overview": "A Discord bot that will host a Killer game.",
@@ -33,19 +33,19 @@
       "tools": [ "Unity", "C#", "MediaPipeUnityPlugin", "Photon PUN", "Autodesk Maya", "Adobe Substance 3D Painter" ],
       "media": [
         {
-          "Image": "src/assets/ProjectsImage/Programming/Hands/Hands01.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/Hands/Hands01.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/Hands/Hands02.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/Hands/Hands02.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/Hands/Hands03.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/Hands/Hands03.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/Hands/Hands04.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/Hands/Hands04.jpg"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/Hands/Hands05.jpg"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/Hands/Hands05.jpg"
         }
       ],
       "overview": "Utilizing smartphone capture and computer-based image processing with MediaPipe's hands and face detection solution, this enable players to control their actions through intuitive hand and head movements, transcending the traditional mouse and keyboard input.",
@@ -57,16 +57,16 @@
       "tools": [ "Unity", "C#", "Adobe Illustrator", "Autodesk Maya", "Blender" ],
       "media": [
         {
-          "Image": "src/assets/ProjectsImage/Programming/MobileGame/MobileGame01.png"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/MobileGame/MobileGame01.png"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/MobileGame/MobileGame02.png"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/MobileGame/MobileGame02.png"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/MobileGame/MobileGame03.png"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/MobileGame/MobileGame03.png"
         },
         {
-          "Image": "src/assets/ProjectsImage/Programming/MobileGame/MobileGame04.png"
+          "Image": "https://raw.githubusercontent.com/APFS-Work/Portfolio/main/src/assets/ProjectsImage/Programming/MobileGame/MobileGame04.png"
         }
       ],
       "overview": "A mobile game that enables players to upgrade their chilopoda for intense battles.",
