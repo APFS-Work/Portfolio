@@ -7,6 +7,10 @@ function DisplayBoxContainer({ media = [{}] }) {
 
     const [index, setIndex] = useState(0);
 
+    if (index > media.length) {
+        setIndex(media.length - 1);
+    }
+
     function createDisplayBoxes() {
         const displayBoxes = [];
         for (let i = 0; i < media.length; i++) {

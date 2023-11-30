@@ -77,6 +77,7 @@
     cursor:pointer;
     opacity: 0.3;
     width: 8vw;
+    max-height: 80vh;
     align-self:center;
 
     box-shadow: black 0px 0px 30px;
@@ -100,4 +101,26 @@
     width: 0;
     height: 0;
     transition: all ease 1s;
+}
+
+
+.TextBoxLink {
+    color:white;
+    text-decoration:none;
+}
+
+.TextBoxLink:visited {
+    color: black;
+}
+
+.TextBoxLink:hover {
+    color: #434343;
+    background-color: rgba(255, 255, 255, .3);
+    text-decoration:underline;
+}
+
+.TextBoxLink:active {
+    color: #efefef;
+    background-color: rgba(0, 0, 0, .3);
+    text-decoration: underline;
 }

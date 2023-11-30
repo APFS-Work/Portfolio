@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github",
-    "\\.github\\workflows"
+    "\\src",
+    "\\src\\data",
+    "\\src\\script",
+    "\\src\\script\\component",
+    "\\src\\style"
   ],
-  "SelectedNode": "\\.github\\workflows\\deploy.yml",
+  "SelectedNode": "\\src\\data\\ThreeDProjects.json",
   "PreviewInSolutionExplorer": false
 }

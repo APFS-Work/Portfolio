@@ -6,26 +6,26 @@
       "tools": [ "Python" ],
       "media": [
         {
-          "Image": "../../../assets/ProjectsImage/Programming/KillerGame/KillerGame01.png"
+          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame01.png"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/KillerGame/KillerGame02.png"
+          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame02.png"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/KillerGame/KillerGame03.png"
+          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame03.png"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/KillerGame/KillerGame04.png"
+          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame04.png"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/KillerGame/KillerGame05.png"
+          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame05.png"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/KillerGame/KillerGame06.png"
+          "Image": "src/assets/ProjectsImage/Programming/KillerGame/KillerGame06.png"
         }
       ],
       "overview": "A Discord bot that will host a Killer game.",
-      "link": "projectOne.com"
+      "link": "https://github.com/APFS-Work/DiscordKillerGameBot.git"
     },
     {
       "title": "Motion Capture Game",
@@ -33,23 +33,23 @@
       "tools": [ "Unity", "C#", "MediaPipeUnityPlugin", "Photon PUN", "Autodesk Maya", "Adobe Substance 3D Painter" ],
       "media": [
         {
-          "Image": "../../../assets/ProjectsImage/Programming/Hands/Hands01.jpg"
+          "Image": "src/assets/ProjectsImage/Programming/Hands/Hands01.jpg"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/Hands/Hands02.jpg"
+          "Image": "src/assets/ProjectsImage/Programming/Hands/Hands02.jpg"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/Hands/Hands03.jpg"
+          "Image": "src/assets/ProjectsImage/Programming/Hands/Hands03.jpg"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/Hands/Hands04.jpg"
+          "Image": "src/assets/ProjectsImage/Programming/Hands/Hands04.jpg"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/Hands/Hands05.jpg"
+          "Image": "src/assets/ProjectsImage/Programming/Hands/Hands05.jpg"
         }
       ],
       "overview": "Utilizing smartphone capture and computer-based image processing with MediaPipe's hands and face detection solution, this enable players to control their actions through intuitive hand and head movements, transcending the traditional mouse and keyboard input.",
-      "link": "projectTwo.github.com"
+      "link": "https://github.com/APFS-Work/Hands-Party_Motion-Capture-Game.git"
     },
     {
       "title": "Mobile Game",
@@ -57,20 +57,20 @@
       "tools": [ "Unity", "C#", "Adobe Illustrator", "Autodesk Maya", "Blender" ],
       "media": [
         {
-          "Image": "../../../assets/ProjectsImage/Programming/MobileGame/MobileGame01.png"
+          "Image": "src/assets/ProjectsImage/Programming/MobileGame/MobileGame01.png"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/MobileGame/MobileGame02.png"
+          "Image": "src/assets/ProjectsImage/Programming/MobileGame/MobileGame02.png"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/MobileGame/MobileGame03.png"
+          "Image": "src/assets/ProjectsImage/Programming/MobileGame/MobileGame03.png"
         },
         {
-          "Image": "../../../assets/ProjectsImage/Programming/MobileGame/MobileGame04.png"
+          "Image": "src/assets/ProjectsImage/Programming/MobileGame/MobileGame04.png"
         }
       ],
       "overview": "A mobile game that enables players to upgrade their chilopoda for intense battles.",
-      "link": "projectTwo.github.com"
+      "link": "https://github.com/APFS-Work/Handmade-Chilopoda_Mobile-Game.git"
     }
   ]
 }

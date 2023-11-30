@@ -8,7 +8,7 @@ function Content({ media = [{}], overview = "", link = "", localIndex = 0, curre
     return <div className={"Content " + ((localIndex==currentIndex) ? "show " : "hide ")}>
         <DisplayBoxContainer media={ media} />
         <TextBox type="Overview" text={overview} />
-        <TextBox type="Github Link" text={link} />
+        <TextBox type="Link" text={link} />
     </div>
 }
 
